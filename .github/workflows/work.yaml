@@ -3,7 +3,7 @@ name: Github JD-sign bot
 on:
     push:
         branches:
-            - master
+            - main
     workflow_dispatch: # 手动触发
     schedule:
         - cron: '5 16 * * *'
